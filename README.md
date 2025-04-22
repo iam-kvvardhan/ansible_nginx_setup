@@ -40,10 +40,16 @@ This is ideal for DevOps automation practice and cloud configuration management.
    git clone https://github.com/iam-kvvardhan/ansible-nginx-serverless-setup.git
    cd ansible-nginx-serverless-setup
 
-2. Update your inventory.ini with the target server IP and SSH user:
-  [web]
+Update your inventory.ini with the target server IP and SSH user:
+
+ini
+Copy
+Edit
+[web]
 54.123.45.67 ansible_user=ubuntu
+Run the playbook:
 
-3. Run the Playbook
-   ansible-playbook -i inventory.ini playbook.yml
-
+bash
+Copy
+Edit
+ansible-playbook -i inventory.ini playbook.yml
