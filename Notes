@@ -1,0 +1,5 @@
+# To create roles follow below command
+ansible-galaxy role init playbookname
+
+# To run a playbook 
+ansible-playbook -i inventoryfilename playbookname.yml
