@@ -40,5 +40,7 @@ Author Information
 ------------------
 
 Vinay Vardhan Komaragiri
+
 📧 vinayvardhan9@gmail.com
+
 🔗 LinkedIn
