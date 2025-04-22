@@ -3,6 +3,7 @@
 ![AWS](https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge&logo=amazon-aws)
 ![NGINX](https://img.shields.io/badge/WebServer-NGINX-brightgreen?style=for-the-badge&logo=nginx)
 ![Status](https://img.shields.io/badge/Project-Active-success?style=for-the-badge)
+
 Automate passwordless EC2 authentication and NGINX installation on AWS using Ansible playbooks.
 # 🚀 Ansible Serverless EC2 Setup with NGINX Installation
 
