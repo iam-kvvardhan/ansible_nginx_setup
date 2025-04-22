@@ -1,5 +1,3 @@
-Your notes are clear and concise. Here's a more polished version with added structure and formatting to make it look better in your GitHub repo, using **markdown** syntax:
-
 ---
 
 ## **Ansible Setup for Passwordless SSH Authentication**
