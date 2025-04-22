@@ -1,2 +1,4 @@
+#This is the inventory file, where you update your server's IP address
+
 [webserver]
-serverIPadresses
+serverIPaddresses
