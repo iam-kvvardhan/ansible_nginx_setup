@@ -1,5 +1,9 @@
 # ansible_nginx_setup
-Automate password less EC2 authentication and NGINX installation on AWS using Ansible playbooks.
+![Ansible](https://img.shields.io/badge/Automation-Ansible-yellow?style=for-the-badge&logo=ansible)
+![AWS](https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge&logo=amazon-aws)
+![NGINX](https://img.shields.io/badge/WebServer-NGINX-brightgreen?style=for-the-badge&logo=nginx)
+![Status](https://img.shields.io/badge/Project-Active-success?style=for-the-badge)
+Automate passwordless EC2 authentication and NGINX installation on AWS using Ansible playbooks.
 # 🚀 Ansible Serverless EC2 Setup with NGINX Installation
 
 This project demonstrates how to:
@@ -34,3 +38,11 @@ This is ideal for DevOps automation practice and cloud configuration management.
    ```bash
    git clone https://github.com/iam-kvvardhan/ansible-nginx-serverless-setup.git
    cd ansible-nginx-serverless-setup
+
+2. Update your inventory.ini with the target server IP and SSH user:
+  [web]
+54.123.45.67 ansible_user=ubuntu
+
+3. Run the Playbook
+   ansible-playbook -i inventory.ini playbook.yml
+
