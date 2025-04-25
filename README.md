@@ -37,8 +37,8 @@ This is ideal for DevOps automation practice and cloud configuration management.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/iam-kvvardhan/ansible-nginx-serverless-setup.git
-   cd ansible-nginx-serverless-setup
+   git clone https://github.com/iam-kvvardhan/ansible_nginx_setup.git
+   cd ansible_nginx_setup
 
 2. Update your inventory.ini with the target server IP and SSH user:
 
